@@ -1,0 +1,8 @@
+_SUB WIN1,W300H200,windows更新暂停,
+    ITEM ITEM1,L120T100W60H30,确定,TEAM ENVI @EDIT1.Val=?&_day| REGI #HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings\\FlightSettingsMaxPauseDays=%_day%,
+    EDIT EDIT1,L120T65W60H30,,,
+    LABE LABE1,L100T22W121H30,暂停更新时长（天）,,
+_END
+
+WIN1
+//TEAM ENVI @EDIT1.Val=?&_day| REGI #HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings\\FlightSettingsMaxPauseDays=%_day%
