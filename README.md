@@ -9,6 +9,6 @@
 
 In general, Windows updates offer just the right mix of security and functionality, but apart from major version updates, the average user may not notice the benefits these updates bring.
 
-Considering that Windows updates can sometimes be强制, and the lengthy update process can disrupt the daily workflow of users, many might wish to pause or stop Windows updates. However, the system default only allows updates to be paused for a few weeks, which can be inconvenient for many users.
+Considering that Windows updates can sometimes be forced, and the lengthy update process can disrupt the daily workflow of users, many might wish to pause or stop Windows updates. However, the system default only allows updates to be paused for a few weeks, which can be inconvenient for many users.
 
 This is where `Win-Update-Pause` comes in. By modifying the registry, it enables users to customize the pause duration for updates, extending it to several months or even years, and can be canceled at any time.
